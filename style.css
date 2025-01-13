@@ -8,13 +8,21 @@ body{
     background-color: #121317;
 }
 .wrapper{
+  /* Put the element in a fixed position on the page */
     position: absolute;
+    /* Make the element 80% of the screen's width */
     width: 80vw;
+    /* Move the element to the center of the screen */
     transform: translate(-50%, -50%);
+    /* Set the element's top position to the middle of the screen */
     top: 50%;
+     /* Set the element's left position to the middle of the screen */
     left: 50%;
+     /* Use flexbox to arrange the inside items */
     display: flex;
+    /* Add space around (equal amount of space) the inside items */
     justify-content: space-around;
+    /* Add 10px space between the inside items */
     gap: 10px;
 }
 .container{
@@ -68,6 +76,7 @@ line-height: 0;
         gap: 30px;
     }
     .container{
+     /* Set the width to 50% of the parent element, minus 40px */
         width: calc(50% - 40px);
         height: 30vmin;
         font-size: 14px;
